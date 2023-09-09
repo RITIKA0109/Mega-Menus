@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Mega Menu</title>
+    <meta charset="UTF-8">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            font-size: 14px;
+            color: #000;
+        }
+
+        body {
+            background-color: #fcfcff;
+        }
+
+        nav {
+            float: left;
+            width: 100%;
+            background-color: #fdfdfbe1;
+            position: relative;
+        }
+
+        nav ul li {
+            list-style-type: none;
+            float: left;
+            display: inline-block;
+        }
+
+        nav ul li a {
+            display: block;
+            text-decoration: none;
+            padding: 25px;
+            background-color: #fdfdfbe1;
+        }
+
+        nav ul li:hover,
+        nav>ul>li:hover>a {
+            background-color: #f7f5ece1;
+            
+        }
+        nav ul li a.top-menu:hover{
+            border-bottom: 3px solid black;
+        }
+
+        nav ul li ul.men,
+        nav ul li ul.women {
+            width: 100%;
+            padding: 2% 0;
+            position: absolute;
+            display: none;
+            background-color: rgba(253, 248, 252, 0.308);
+
+        }
+
+        nav ul li:hover ul.men,
+        nav ul li:hover ul.women {
+            display: block;
+            left: 10px;
+        }
+
+        nav ul li:hover ul.men li,
+        nav ul li:hover ul.women li {
+            width: 200px;
+            margin: 0 40px 0 40px;
+        }
+
+        nav ul li:hover ul.men li a,
+        nav ul li:hover ul.women li a {
+            padding: 10px;
+        }
+
+        nav ul li:hover ul.men li a:hover,
+        nav ul li:hover ul.women li a:hover {
+            /* background: rgb(205, 247, 242); */
+            font-weight: bold;
+        }
+
+        nav ul li:hover ul.men h1,
+        nav ul li:hover ul.women h1 {
+            padding: 10px 0;
+            font-size: 20px;
+
+        }
+        
+
+    </style>
+</head>
+
+<body>
+    <h1 style="text-align:center;font-size:45px;">MEGA MENU</h1>
+    <nav>
+
+        <ul>
+            <li><a href="#" class="top-menu">MEN</a>
+                <ul class="men">
+                    <li>
+                        <h1>TopWear</h1>
+                        <a href="#">T-shirts</a>
+                        <a href="#">Casual Shirts</a>
+                        <a href="#">Formal shirts</a>
+                        <a href="#">Sweatshirts</a>
+                        <a href="#">Rain Jackets</a>
+                    </li>
+                    <li>
+                        <h1>BottomWear</h1>
+                        <a href="#">Jeans</a>
+                        <a href="#">Casual Trousers</a>
+                        <a href="#">Formal Trousers</a>
+                        <a href="#">Shorts</a>
+                        <a href="#">Track Pant & Joggers</a>
+                    </li>
+                    <li>
+                        <h1>Ethnic Wear</h1>
+                        <a href="#">T-shirts</a>
+                        <a href="#">Casual Shirts</a>
+                        <a href="#">Formal shirts</a>
+                        <a href="#">Sweatshirts</a>
+                        <a href="#">Rain Jackets</a>
+                    </li>
+                    <li>
+                        <h1>Loungerie</h1>
+                        <a href="#">Jeans</a>
+                        <a href="#">Casual Trousers</a>
+                        <a href="#">Formal Trousers</a>
+                        <a href="#">Shorts</a>
+                        <a href="#">Track Pant & Joggers</a>
+                    </li>
+                    <li>
+                        <h1>Loungerie</h1>
+                        <a href="#">Jeans</a>
+                        <a href="#">Casual Trousers</a>
+                        <a href="#">Formal Trousers</a>
+                        <a href="#">Shorts</a>
+                        <a href="#">Track Pant & Joggers</a>
+                    </li>
+                    <li>
+                        <h1>Sports and Active Wear</h1>
+                        <a href="#">Jeans</a>
+                        <a href="#">Casual Trousers</a>
+                        <a href="#">Formal Trousers</a>
+                        <a href="#">Shorts</a>
+                        <a href="#">Track Pant & Joggers</a>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="#" class="top-menu">WOMEN</a>
+                <ul class="women">
+                    <li>
+                        <h1>Western Wear</h1>
+                        <a href="#">T-shirts</a>
+                        <a href="#">Casual Shirts</a>
+                        <a href="#">Formal shirts</a>
+                        <a href="#">Sweatshirts</a>
+                        <a href="#">Rain Jackets</a>
+                    </li>
+                    <li>
+                        <h1>Indian and Fusion Wear</h1>
+                        <a href="#">Jeans</a>
+                        <a href="#">Casual Trousers</a>
+                        <a href="#">Formal Trousers</a>
+                        <a href="#">Shorts</a>
+                        <a href="#">Track Pant & Joggers</a>
+                    </li>
+                    <li>
+                        <h1>Ethnic Wear</h1>
+                        <a href="#">T-shirts</a>
+                        <a href="#">Casual Shirts</a>
+                        <a href="#">Formal shirts</a>
+                        <a href="#">Sweatshirts</a>
+                        <a href="#">Rain Jackets</a>
+                    </li>
+                    <li>
+                        <h1>Loungerie</h1>
+                        <a href="#">Jeans</a>
+                        <a href="#">Casual Trousers</a>
+                        <a href="#">Formal Trousers</a>
+                        <a href="#">Shorts</a>
+                        <a href="#">Track Pant & Joggers</a>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="#" class="top-menu">KIDS</a>
+                <ul class="women">
+                    <li>
+                        <h1>Boys Clothing</h1>
+                        <a href="#">T-shirts</a>
+                        <a href="#">Casual Shirts</a>
+                        <a href="#">Formal shirts</a>
+                        <a href="#">Sweatshirts</a>
+                        <a href="#">Rain Jackets</a>
+                    </li>
+                    <li>
+                        <h1>Girls clothing</h1>
+                        <a href="#">Jeans</a>
+                        <a href="#">Casual Trousers</a>
+                        <a href="#">Formal Trousers</a>
+                        <a href="#">Shorts</a>
+                        <a href="#">Track Pant & Joggers</a>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="#" class="top-menu">HOME & LIVING</a>
+                <ul class="women">
+                    <li>
+                        <h1>Bath</h1>
+                        <a href="#">T-shirts</a>
+                        <a href="#">Casual Shirts</a>
+                        <a href="#">Formal shirts</a>
+                        <a href="#">Sweatshirts</a>
+                        <a href="#">Rain Jackets</a>
+                    </li>
+                    <li>
+                        <h1>Floor</h1>
+                        <a href="#">Jeans</a>
+                        <a href="#">Casual Trousers</a>
+                        <a href="#">Formal Trousers</a>
+                        <a href="#">Shorts</a>
+                        <a href="#">Track Pant & Joggers</a>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="#" class="top-menu">BEAUTY</a>
+                <!-- <div class="card">
+                    <p>You'll get to explore soon!</p>
+                </div> -->
+            </li>
+        </ul>
+
+
+    </nav>
+
+</body>
+
+</html>
